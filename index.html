@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo do Humor</title>
+
+</head>
+
+<body class="pokemon" onload= "iniciar()">
+    
+    <audio src="./audio/Pokémon Theme Song.mp3" autoplay controls loop> </audio>
+
+    <div class="Wraper">
+
+        <main>
+
+            <section class="module parallax">
+                <h1> Escolha Seu Pokemon </h1>
+                <p> Qual Pokemon Vai te Acompanhar Nessa Jornada? </p>
+            </section>
+
+            <section class="module content">
+
+                <div class="container">
+
+                <div class="pokemon-body1" name="pokemons">
+
+                    <div id="Bulbasaur" class="pokemon-body1-choose" >
+                        <img src="./img/001.png" />
+                        <p>Bulbasaur</p>
+                        <p>Tipo: Grama/Venenoso</p>
+                    </div>
+        
+                    <div id="Charmander" class="pokemon-body1-choose" >
+                        <img src="./img/004.png" />
+                        <p>Charmander</p>
+                        <p>Tipo: Fogo</p>
+                    </div>
+        
+                    <div id="Squirtle" class="pokemon-body1-choose" >
+                        <img src="./img/007.png" />
+                        <p>Squirtle</p>
+                        <p>Tipo: Água</p>
+                    </div>
+
+                </div>
+
+                </div>
+
+            </section>
+
+            <section class="evolution">
+
+                <div class="pokemon-body-title">
+                    <h1>Evolua seu pokémon!</h1>
+        
+                    <p>Ajude seu pokémon a evoluir e fique mais forte!</p>
+                </div>
+        
+                <div class="pokemon-body2">
+                    <div class="pokemon-body2-info">
+                        <h2>Evolução atual:</h2>
+        
+                        <h3 id="name">Bulbasaur</h3>
+        
+                        <button id="button" class="select">
+                            <img src="./img/pokebola.png" />
+                        </button>
+                        <small id="reset">Evoluir!</small>
+                    </div>
+        
+                    <div class="pokemon-body2-img">
+                        <img src="./img/001.png" id="image" />
+                    </div>
+
+                </div>
+
+                <p id="evolution1">Seu pokémon está na evolução inicial.</p>
+            
+
+            </section>
+
+          
+
+        </main>
+
+    </div>
+    
+    <footer class="footer">
+         <a href="https://github.com/Thyago-limma"> 2022,05,14  Thiago de Lima Silva </a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
